@@ -1,6 +1,6 @@
-jupyter_notebooks_test_bench/.ipynp_checkpoints/
-jupyter_notebooks_test_bench/holon_chat.db
+jupyter_notebooks_test_bench/.ipynb_checkpoints
 jupyter_notebooks_test_bench/last_respID.txt
+jupyter_notebooks_test_bench/holon_chat.db
 audio_files/
 .aider*
 .env
