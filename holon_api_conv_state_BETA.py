@@ -46,11 +46,10 @@ def main():
         last_respID=None
 
     user_message = input("User Prompt:")
-    print('\n')
 
     model_answer = llm_transmitter_receiver(user_message, last_respID)
 
-    print(model_answer, '\n')
+    print(f"Holon: {model_answer['response_load']['text_output']}", '\n')
 
 if __name__ == "__main__":
     main()
